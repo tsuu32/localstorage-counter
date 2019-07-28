@@ -36,4 +36,3 @@ const Container = styled.div`
 `;
 
 ReactDOM.render(<App/>, document.getElementById('app'));
-

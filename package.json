@@ -13,7 +13,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "NEDE_ENV=production parcel build index.html --public-url /localstorage-counter/",
-    "predeploy": "npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],

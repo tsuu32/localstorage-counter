@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@blueprintjs/core": "^3.17.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2"
+  },
+  "name": "localstorage-counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "NEDE_ENV=production parcel build index.html --public-url /localstorage-counter/",
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

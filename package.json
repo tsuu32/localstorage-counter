@@ -1,6 +1,10 @@
 {
   "name": "localstorage-counter",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsuu32/localstorage-counter.git"
+  },
   "scripts": {
     "start": "parcel index.html",
     "build": "NEDE_ENV=production parcel build index.html --public-url /localstorage-counter/",

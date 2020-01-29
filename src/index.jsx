@@ -6,8 +6,8 @@ import "@blueprintjs/core/lib/css/blueprint.css";
 import React, { useState, useEffect, useCallback } from 'react';
 import ReactDOM from 'react-dom';
 import styled from "styled-components";
-import Header from './header';
-import Counter from './counter';
+import Header from './components/header';
+import Counter from './components/counter';
 
 function App() {
   const [noContextMenu, setNoContextMenu] = useState(false);

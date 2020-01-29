@@ -6,16 +6,20 @@
     "url": "https://github.com/tsuu32/localstorage-counter.git"
   },
   "scripts": {
-    "start": "parcel index.html",
-    "build": "NEDE_ENV=production parcel build index.html --public-url /localstorage-counter/",
+    "start": "parcel src/index.html",
+    "build": "NEDE_ENV=production parcel build src/index.html --public-url /localstorage-counter/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "author": "tsuu32",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "parcel-bundler": "^1.12.4"
+  },
   "dependencies": {
     "@blueprintjs/core": "^3.17.1",
+    "@blueprintjs/icons": "^3.13.0",
     "normalize.css": "^8.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

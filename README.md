@@ -1,4 +1,6 @@
 # LocalStorage Counter
+[![Actions Status](https://github.com/tsuu32/localstorage-counter/workflows/Node.js%20CI/badge.svg)](https://github.com/tsuu32/localstorage-counter/actions)
+
 A simple click counter based on LocalStorage.
 
 Play [here](https://tsuu32.github.io/localstorage-counter/).

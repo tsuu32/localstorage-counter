@@ -4,9 +4,9 @@ A simple click counter based on LocalStorage.
 Play [here](https://tsuu32.github.io/localstorage-counter/).
 
 ## Building from source
-Please ensure to install `parcel-bundler` CLI.
+Please ensure to install dependancies.
 ```sh
-npm -g install parcel-bundler
+npm install
 ```
 
 - `npm run start`: start parcel bundler.

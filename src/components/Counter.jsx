@@ -3,7 +3,7 @@ import { Button } from "@blueprintjs/core";
 import styled from "styled-components";
 
 export default function Counter(props) {
-  const [count, setCount] = useState(parseInt(localStorage.getItem("count"), 10));
+  const [count, setCount] = useState(Number(localStorage.getItem("count")));
   const incCount = useCallback(() => setCount((cnt) => cnt+1), [setCount]);
   const cmHandler = useCallback((ev) => {
     if (props.noContextMenu)

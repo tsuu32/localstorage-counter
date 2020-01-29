@@ -18,11 +18,11 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "@blueprintjs/core": "^3.17.1",
+    "@blueprintjs/core": "^3.23.1",
     "@blueprintjs/icons": "^3.13.0",
     "normalize.css": "^8.0.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "styled-components": "^4.3.2"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
   }
 }

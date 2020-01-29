@@ -9,6 +9,7 @@ import {
   Card,
   Switch
 } from "@blueprintjs/core";
+import styled from "styled-components";
 
 export default function Header(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,15 +24,27 @@ export default function Header(props) {
       <NavbarGroup align={Alignment.RIGHT}>
         <Button minimal={true} icon="cog" text="" onClick={open} />
         <Overlay isOpen={isOpen} onClose={close}>
-          <Card>
-            <Switch checked={props.noContextMenu} label={"Disable right click."}
-                    onChange={props.toggleNoContextMenu}/>
-            <Switch checked={props.cheetRightClick}
-                    labelElement={<span><strong>CHEET</strong> A right click as a click.</span>}
-                    onChange={props.toggleCheetRightClick}/>
-          </Card>
+          <StyledCard>
+            <Switch
+              checked={props.noContextMenu}
+              label={"Disable right click"}
+              onChange={props.toggleNoContextMenu}
+            />
+            <Switch
+              checked={props.cheetRightClick}
+              labelElement={<span><strong>CHEAT:</strong> One right click as a click</span>}
+              onChange={props.toggleCheetRightClick}
+            />
+          </StyledCard>
         </Overlay>
       </NavbarGroup>
     </Navbar>
   );
 }
+
+const StyledCard = styled(Card)`
+  top: 0;
+  left: calc(50vw - 150px);
+  margin: 10vh 0;
+  width: 300px;
+`;

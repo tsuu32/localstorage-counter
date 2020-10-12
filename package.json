@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "parcel serve src/index.html",
-    "build": "parcel build --no-minify --public-url /localstorage-counter/ src/index.html ",
+    "build": "parcel build --public-url /localstorage-counter/ src/index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

@@ -32,7 +32,7 @@ export default function Header(props) {
             />
             <Switch
               checked={props.cheetRightClick}
-              labelElement={<span><strong>CHEAT:</strong> One right click as a click</span>}
+              labelElement={<span><strong>CHEAT:</strong> Use right click as a click</span>}
               onChange={props.toggleCheetRightClick}
             />
           </StyledCard>

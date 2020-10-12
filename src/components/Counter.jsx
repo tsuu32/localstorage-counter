@@ -32,4 +32,5 @@ export default function Counter(props) {
 const StyledButton = styled(Button)`
   width: 280px;
   height: 280px;
+  font-weight: 900;
 `;

@@ -1,5 +1,5 @@
 # LocalStorage Counter
-[![Actions Status](https://github.com/tsuu32/localstorage-counter/workflows/build/badge.svg)](https://github.com/tsuu32/localstorage-counter/actions)
+[![Actions Status](https://github.com/tsuu32/localstorage-counter/workflows/CI/badge.svg)](https://github.com/tsuu32/localstorage-counter/actions?query=workflow%3ACI)
 
 A simple click counter based on LocalStorage.
 
